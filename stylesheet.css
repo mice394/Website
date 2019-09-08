@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVIGATION BAR*/
+#topnav {
+	background-color: #ebebeb;
+	margin: 0px;
+}
+#topnav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+#topnav li {
+	padding: 14px 16px;
+	margin: 0 20px 0;
+}
+#topnav a {
+  color: #535353;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+#topnav a:hover {
+  background-color: rgb(81, 116, 161);
+	color: black;
+	font-size: 30px;
+}
+#topnav a:active {
+  background-color: #4caf50;
+  color: white;
+}
+
+/*EMILY SHAO*/
+#EMILYSHAOsec {
+	position: relative;
+	background: url("homebg1.png") rgb(179, 102, 214) no-repeat;
+	background-size: cover;
+	height: 500px;
+	border: none;
+	margin: 0px 10px 0px;
+}
+.EMILYSHAOheader {
+	position: relative;
+	top: 90px;
+	right: 150px;
+  text-align: right;
+  font-size: 70px;
+	font-family: Bookman;
+	color: white;
+}
+.EMILYSHAOcs {
+	position: relative;
+	top: 120px;
+	right: 150px;
+  text-align: right;
+  font-size: 45px;
+	font-family: Georgia;
+	color: white;
+}
+.EMILYSHAOuni {
+	position: relative;
+	top: 140px;
+	right: 150px;
+  text-align: right;
+  font-size: 35px;
+	font-family: Georgia;
+	color: white;
+}
+
+/*ABOUT ME*/
+#aboutmesec {
+	position: relative;
+	background: white;
+	height: 500px;
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px 10px 0px;
+}
+.aboutmepic {
+	position: relative;
+	float: right;
+	top: 50px;
+	right: 150px;
+	width: 350px;
+	height: auto;
+	border: 8px solid black;
+}
+.aboutmeheader {
+	color: black;
+	position: relative;
+	top: 40px;
+	left: 130px;
+}
+.aboutmetable {
+	position: relative;
+	top: 50px;
+	left: 90px;
+	width: 710px;
+	padding: 10px 0px;
+	/*margin: 20px 80px 0px;*/
+}
+.leftcol {
+	text-align: right;
+}
+.rightcol {
+	text-align: left;
+	padding: 8px;
+}
+
+/*SKILLS*/
+#myskillsec {
+	position: relative;
+	background: url("myskillsbg.png") #70b7f1 no-repeat;
+	background-size:  cover;
+	height: 620px;
+	border: none;
+	margin: 0px 10px 0px;
+}
+.myskillheader {
+	position: relative;
+	top: 30px;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 80px;
+	/*margin: 80px 110px;*/
+	color: black;
+}
+.myskillsubhead {
+	position: relative;
+	top: 40px;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 30px;
+}
+.skillslist {
+	position: relative;
+	top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+#progressbar {
+	position: relative;
+	top: 60px;
+	left: 330px;
+	width: 700px;
+	height: 400px;
+	background: grey;
+	opacity: 0.7;
+}
+.progressbartable {
+	position: relative;
+	top: 10px;
+	left: 20px;
+	text-align: right;
+}
+.progressbartable th{
+	padding: 10px;
+}

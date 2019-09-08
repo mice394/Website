@@ -1,0 +1,370 @@
+/* C */
+.progress-bar-C{
+    position: relative;
+    top: 5px;
+    display: block;
+    padding: 5px;
+    margin: 0px 50px 0px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.8);
+}
+
+.progress-bar-C span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    background-color: #69d4f5;
+    background-size: 100%;
+    background-image: linear-gradient(to bottom, #519eb6, #0c51b9);
+    animation: C-stripes-1 9s infinite ease;
+}
+
+.progress-bar-C span::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-size: 100%;
+    background-image: linear-gradient(45deg, #fff 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, #fff 50%, #fff 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+    background-size: 30px 30px;
+    opacity: 0.3;
+    animation: C-stripes-2 0.5s infinite linear;
+}
+
+@keyframes C-stripes-1 {
+    0% {
+        width: 0%;
+    }
+    75% {
+        width: 90%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes C-stripes-2 {
+    0% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: 30px 100%;
+    }
+}
+
+/* Swift */
+.progress-bar-swift{
+    position: relative;
+    top: 5px;
+    display: block;
+    padding: 5px;
+    margin: 0px 50px 0px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.8);
+}
+
+.progress-bar-swift span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    background-color: #69d4f5;
+    background-size: 100%;
+    background-image: linear-gradient(to bottom, #519eb6, #0c51b9);
+    animation: swift-stripes-1 9s infinite ease;
+}
+
+.progress-bar-swift span::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-size: 100%;
+    background-image: linear-gradient(45deg, #fff 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, #fff 50%, #fff 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+    background-size: 30px 30px;
+    opacity: 0.3;
+    animation: swift-stripes-2 0.5s infinite linear;
+}
+
+@keyframes swift-stripes-1 {
+    0% {
+        width: 0%;
+    }
+    75% {
+        width: 80%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes swift-stripes-2 {
+    0% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: 30px 100%;
+    }
+}
+
+/* HTML and CSS */
+.progress-bar-html{
+    position: relative;
+    top: 5px;
+    display: block;
+    padding: 5px;
+    margin: 0px 50px 0px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.8);
+}
+
+.progress-bar-html span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    background-color: #69d4f5;
+    background-size: 100%;
+    background-image: linear-gradient(to bottom, #519eb6, #0c51b9);
+    animation: html-stripes-1 9s infinite ease;
+}
+
+.progress-bar-html span::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-size: 100%;
+    background-image: linear-gradient(45deg, #fff 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, #fff 50%, #fff 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+    background-size: 30px 30px;
+    opacity: 0.3;
+    animation: html-stripes-2 0.5s infinite linear;
+}
+
+@keyframes html-stripes-1 {
+    0% {
+        width: 0%;
+    }
+    75% {
+        width: 90%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes html-stripes-2 {
+    0% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: 30px 100%;
+    }
+}
+
+/* Javascript */
+.progress-bar-JS {
+    position: relative;
+    top: 5px;
+    display: block;
+    padding: 5px;
+    margin: 0px 50px 0px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.8);
+}
+
+.progress-bar-JS span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    background-color: #69d4f5;
+    background-size: 100%;
+    background-image: linear-gradient(to bottom, #519eb6, #0c51b9);
+    animation: JS-stripes-1 9s infinite ease;
+}
+
+.progress-bar-JS span::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-size: 100%;
+    background-image: linear-gradient(45deg, #fff 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, #fff 50%, #fff 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+    background-size: 30px 30px;
+    opacity: 0.3;
+    animation: JS-stripes-2 0.5s infinite linear;
+}
+
+@keyframes JS-stripes-1 {
+    0% {
+        width: 0%;
+    }
+    75% {
+        width: 50%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes JS-stripes-2 {
+    0% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: 30px 100%;
+    }
+}
+
+/* Python */
+.progress-bar-python {
+    position: relative;
+    top: 5px;
+    display: block;
+    padding: 5px;
+    margin: 0px 50px 0px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.8);
+}
+
+.progress-bar-python span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    background-color: #69d4f5;
+    background-size: 100%;
+    background-image: linear-gradient(to bottom, #519eb6, #0c51b9);
+    animation: python-stripes-1 9s infinite ease;
+}
+
+.progress-bar-python span::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-size: 100%;
+    background-image: linear-gradient(45deg, #fff 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, #fff 50%, #fff 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+    background-size: 30px 30px;
+    opacity: 0.3;
+    animation: python-stripes-2 0.5s infinite linear;
+}
+
+@keyframes python-stripes-1 {
+    0% {
+        width: 0%;
+    }
+    75% {
+        width: 80%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes python-stripes-2 {
+    0% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: 30px 100%;
+    }
+}
+/* SQL */
+.progress-bar-SQL {
+    position: relative;
+    top: 5px;
+    display: block;
+    padding: 5px;
+    margin: 0px 50px 0px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.8);
+}
+
+.progress-bar-SQL span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    background-color: #69d4f5;
+    background-size: 100%;
+    background-image: linear-gradient(to bottom, #519eb6, #0c51b9);
+    animation: SQL-stripes-1 9s infinite ease;
+}
+
+.progress-bar-SQL span::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-size: 100%;
+    background-image: linear-gradient(45deg, #fff 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, #fff 50%, #fff 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+    background-size: 30px 30px;
+    opacity: 0.3;
+    animation: SQL-stripes-2 0.5s infinite linear;
+}
+
+@keyframes SQL-stripes-1 {
+    0% {
+        width: 0%;
+    }
+    75% {
+        width: 60%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes SQL-stripes-2 {
+    0% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: 30px 100%;
+    }
+}
